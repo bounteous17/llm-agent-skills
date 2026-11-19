@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "organization": "llm-agent-skills",
+  "date": "November 2026",
+  "abstract": "Generic conventions for resolving the Jira ticket a task belongs to and exposing it as a ticket context (key, summary, issue type, status, URL, branch, label, slug) that other skills reuse for worktree, branch, tab, agent, commit, and pull request names. Covers precedence of repository rules, key resolution, client-neutral reads through an Atlassian MCP server, acli, or the REST API on the right site, branch reuse and the profile's branch format, and read-only defaults for Jira writes. Written to be followed by agents of any vendor.",
+  "references": [
+    "https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/",
+    "https://developer.atlassian.com/cloud/acli/guides/introduction/",
+    "https://support.atlassian.com/jira-software-cloud/docs/reference-issues-in-your-development-work/"
+  ]
+}

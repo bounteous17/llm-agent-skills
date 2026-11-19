@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "organization": "llm-agent-skills",
+  "date": "November 2026",
+  "abstract": "Generic conventions for working inside Herdr, the terminal multiplexer for coding agents. Covers activation only inside Herdr panes, the upstream herdr skill as the authority for CLI syntax, detecting the repository's ticket system from its AGENTS.md or CLAUDE.md, one Git worktree per ticket named from the ticket context provided by a ticket profile such as jira-profile-generic, copying gitignored local files into new worktrees, naming workspaces, tabs, and agents, asking which agent kind, model, and effort to start, vendor-neutral briefs for started agents, and focus and ownership safety. Written to be followed by agents of any vendor.",
+  "references": [
+    "https://herdr.dev",
+    "https://herdr.dev/agent-guide.md"
+  ]
+}

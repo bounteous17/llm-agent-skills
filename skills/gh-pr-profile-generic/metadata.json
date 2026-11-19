@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "organization": "llm-agent-skills",
+  "date": "November 2026",
+  "abstract": "Generic conventions for creating and updating GitHub pull requests with the gh CLI. Covers consent before commits, pushes, and pull requests, precedence of repository rules and pull request templates, ticket-prefixed titles from the ticket context provided by a ticket profile such as jira-profile-generic with a conventional-commit fallback, summary-only descriptions, the repository's AI attribution policy, duplicate checks, base branch, assignee, and CODEOWNERS reviewers, and keeping title and description current after later pushes. Written to be followed by agents of any vendor.",
+  "references": [
+    "https://cli.github.com/manual/gh_pr_create",
+    "https://cli.github.com/manual/gh_pr_edit",
+    "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners",
+    "https://www.conventionalcommits.org/en/v1.0.0/"
+  ]
+}
